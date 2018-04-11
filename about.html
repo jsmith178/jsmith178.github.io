@@ -18,22 +18,40 @@
       <header class="grid-x grid-margin-x grid-padding-x">
         <h1 class="large-12 cell">Jamie Lynn</h1>
       </header>
-      <nav>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="gallery.html">gallery</a></li>
-          <li><a href="about.html" class="current">about</a></li>
-        </ul>
-      </nav>
+      <!-- ///ZURB RESPONSIVE NAVBAR/// -->
+        <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+          <div class="title-bar-title">Menu</div>
+        </div>
+
+        <nav class="top-bar" id="main-nav">
+          <div class="top-bar-left">
+            <ul class="dropdown verticle medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animated-height="true">
+              <li class="menu-text">Jamie Lynn</li>
+              <li>
+                <a href="index.html">Home</a>
+                <ul class="menu vertical">
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="about.html" class="current">About</a></li>
+                </ul>
+              </li>
+              <li><a href="animation.html">Animation</a></li>
+              <li><a href="redesign.html">Redesign</a></li>
+              <li><a href="lss.html">LSS</a></li>
+            </ul>
+          </div>
+        </nav>
+<!-- ///ZURB RESPONSIVE NAVBAR/// -->
         <section class="grid-x">
-          <figure class="large-6 cell large-offset-2 grid-padding-y">
+          <figure class="large-6 cell large-offset-1 grid-padding-y">
             <img src="img/jamie.jpg
             " alt="placeholder image">
           </figure>
-          <article class="large-2 cell grid-padding-y">
+          <article class="large-3 cell grid-padding-y">
             <h2>Bio</h2>
-            <p>Jamie Lynn is pursuing a Graphic Design BFA at California State University East Bay.</p>
+            <p>Jamie is pursuing a Graphic Design BFA at California State University East Bay.</p>
             <h3>Contact</h3>
+            <p>email: jsmith178@horizon.csueastbay.edu</p>
           </article>
         </section>
     </main>
