@@ -53,14 +53,24 @@
           </article>
         </section>
         <section class="grid-x grid-margin-x grid-padding-x">
-          <footer class="large-4 cell large-offset-5">  <h2>Hello! Today is</h2>
+          <footer class="large-7 cell large-offset-3">
+            <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+              <div class="large-12 cell">
+                <h2 id="today"></h2>
+                 <h3 id="time"></h3>
+              </div>
+            </div>
+            <h2 id="today"></h2>
+             <h3 id="time"></h3>
+            <!-- <h2>Hello! Today is</h2>
             <h2 id="demo"></h2>
             <p id="demo"></p>
             <script>
             var d = new Date();
-            document.getElementById("demo").innerHTML = d.toDateString();
+            document.getElementById("demo").innerHTML = d.toDateString(); -->
             </script></footer>
         </section>
+
 
     </main>
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
@@ -69,6 +79,7 @@
     <script src="zurb/js/vendor/foundation.js"></script>
     <script src="zurb/js/app.js"></script>
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
+    <script src="js/daytime.js"></script>
     <!-- <h2>Hello! Today is</h2>
     <h2 id="demo"></h2>
     <p id="demo"></p>
