@@ -81,7 +81,7 @@ article {
   margin-right: auto;
   box-shadow: 10px 10px 5px grey;
 }
-aside {
+.aboutstyle {
   background-color: rgb(217,222,141);
   margin-top: 40px;
   text-align: center;
@@ -172,5 +172,21 @@ font-size: 60pt;
   margin-top: 20px;
  padding: 5px 5px 5px 5px;
  background-color: rgb(217,222,141);
+}
+
+.menu{
+  margin-top:10px;
+}
+
+.menutitle{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.alignleft{
+  float:left;
+}
+.alignright{
+  float:right;
 }
 </style>
