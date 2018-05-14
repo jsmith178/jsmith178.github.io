@@ -14,10 +14,47 @@
     <link rel="stylesheet" href="zurb/css/app.css">
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <link href="css/homestyles.css" rel="stylesheet">
+    <style>
+span {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: relative;
+    -webkit-animation: myfirst 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite alternate;
+    /* animation: grow 5s infinite alternate;
+    -webkit-animation: myfirst 5s linear 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: myfirst 10s linear 2s infinite; */
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {background-color:none; left:0px; top:0px; width: 200px;}
+    25%  {background-color:none; left:100px; top:100px; width: 230px;}
+    25%  {background-color:none; left:100px; top:100px; width: 400px;}
+    100% {background-color:none; left:300px; top:-200px; width: 200px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-color:none; left:0px; top:0px; width: 200px;}
+    25%  {background-color:none; left:100px; top:100px; width: 230px;}
+    25%  {background-color:none; left:100px; top:100px; width: 400px;}
+    100% {background-color:none; left:300px; top:-200px; width: 200px;}
+}
+@keyframes grow {
+  from {
+    font-size: 30px;
+  }
+  to {
+    font-size: 100px;
+  }
+}
+
+</style>
   </head>
   <body>
-    <!-- <main class="grid-container">
-      <section class="grid-x"> -->
         <nav>
           <ul>
             <li><a href="../index.html">JL</a></li>
@@ -27,13 +64,13 @@
             <li><a href="four.html"><img src="img/fourfeet.png"></a></li>
           </ul>
         </nav>
-    <div>
-    <p>Take these broken wings and learn to fly</p>
-  </div>
   <figure>
-    <img src="img/treesilhouette.png" alt="tree" width="650" style="float:left">
+    <img src="img/treebird.png" alt="tree" width="650" style="float:left">
   </a>
   </figure>
+  <div>
+  <p>Take these broken wings<br>And learn to <span>fly</span></p>
+</div>
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <script src="zurb/js/vendor/jquery.js"></script>
     <script src="zurb/js/vendor/what-input.js"></script>
