@@ -8,7 +8,12 @@ p {
 }
 figure {
   opacity: 0.25;
-  margin-top: 110px;
+  /* margin-top: 90px; */
+}
+article {
+  margin-left: 200px;
+  margin-top: 45px;
+  margin-bottom: 0px;
 }
 nav ul {
       list-style-type: none; /* remove bullets */

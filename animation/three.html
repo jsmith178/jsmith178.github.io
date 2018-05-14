@@ -14,6 +14,40 @@
     <link rel="stylesheet" href="zurb/css/app.css">
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <link href="css/homestyles.css" rel="stylesheet">
+    <style>
+span {
+    width: 100px;
+    height: 50px;
+    background-color: none;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+
+
+#span4 {-webkit-animation-timing-function: ease-out;}
+
+
+/* Standard syntax */
+
+
+#span4 {animation-timing-function: ease-out;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+</style>
   </head>
   <body>
     <!-- <main class="grid-container">
@@ -28,9 +62,13 @@
           </ul>
         </nav>
         <main class="grid-container">
-  <div>
-  <p>All your life,<br>You were only waiting<br>For this moment to be free</p>
-</div>
+  <article>
+  <p>All your life,<br>You were only waiting<br>For this moment to be <span id="span4">free</span></p>
+</article>
+<figure>
+  <img src="img/cage.png" alt="birdcage" width="650" style="float:left">
+</a>
+</figure>
 </main>
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <script src="zurb/js/vendor/jquery.js"></script>
