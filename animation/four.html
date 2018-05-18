@@ -14,6 +14,19 @@
     <link rel="stylesheet" href="zurb/css/app.css">
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <link href="css/homestyles.css" rel="stylesheet">
+    <style>
+    .birds {
+    width: 190px;
+    height: 240px;
+    margin: 2% auto;
+    background: url('https://github.com/jsmith178/jsmith178.github.io/blob/master/animation/img/birdsprite.png') left center;
+    animation: play .8s steps(10) infinite;
+    }
+
+    @keyframes play {
+      100% { background-position: -1900px; }
+    }
+    </style>
   </head>
   <body>
   <div id="grad1">
@@ -30,9 +43,8 @@
     <div>
     <p>Blackbird fly,<br>Into the light<br> Of the dark black night</p>
   </div>
-  <img src="https://github.com/jsmith178/jsmith178.github.io/blob/master/animation/img/birdsprite.png" />
 
-<div class="fly"></div>
+<div class="bird"></div>
 <section class="grid-x large-offset-10">
 <footer>Paul McCartney, John Lennon</footer>
 </section>
