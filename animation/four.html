@@ -15,17 +15,22 @@
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <link href="css/homestyles.css" rel="stylesheet">
     <style>
-    .birds {
-    width: 190px;
-    height: 240px;
-    margin: 2% auto;
-    background: url('https://github.com/jsmith178/jsmith178.github.io/blob/master/animation/img/birdsprite.png') left center;
-    animation: play .8s steps(10) infinite;
-    }
+    #spriteContainer {
+     width: 1200px;
+     height: 90px;
+     -ms-transform: rotate(-20deg); /* IE 9 */
+     -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+     transform: rotate(-20deg);
+     background-image: url("img/birdsprite.png");
+      animation: sprite 1s steps(5) infinite;
+      opacity: 0.25;
+   }
+   @keyframes sprite {
+   100% {
+     background-position: -7224px;
+   }
+  }
 
-    @keyframes play {
-      100% { background-position: -1900px; }
-    }
     </style>
   </head>
   <body>
@@ -44,7 +49,7 @@
     <p>Blackbird fly,<br>Into the light<br> Of the dark black night</p>
   </div>
 
-<div class="bird"></div>
+<div id=spriteContainer></div>
 <section class="grid-x large-offset-10">
 <footer>Paul McCartney, John Lennon</footer>
 </section>
@@ -56,6 +61,9 @@
     <script src="zurb/js/vendor/foundation.js"></script>
     <script src="zurb/js/app.js"></script>
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
+    <script src="/js/prefixfree.min.js"></script>
+
     </div>
+
   </body>
 </html>
