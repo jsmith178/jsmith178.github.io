@@ -15,7 +15,78 @@
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
     <link href="css/homestyles.css" rel="stylesheet">
     <style>
-    #spriteContainer {
+    .bird {
+    width: 78px;
+    height: 72px;
+    background-image: url("img/birdsprite.png");
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+
+    -webkit-animation: play .7s steps(5) infinite reverse;
+       -moz-animation: play .7s steps(5) infinite reverse;
+        -ms-animation: play .7s steps(5) infinite reverse;
+         -o-animation: play .7s steps(5) infinite reverse;
+            animation: play .7s steps(5) infinite reverse;
+}
+span {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: relative;
+    -webkit-animation: myfirst 1s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 1s infinite alternate;
+    /* animation: grow 5s infinite alternate;
+    -webkit-animation: myfirst 5s linear 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: myfirst 10s linear infinite; */
+}
+
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 400px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 400px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 400px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 400px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 400px; }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {background-color:none; left:0px; top:500px; width: 200px;}
+    /* 25%  {background-color:none; left:100px; top:100px; width: 230px;}
+    25%  {background-color:none; left:100px; top:100px; width: 400px;} */
+    100% {background-color:none; left:1200px; top:-250px; width: 200px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-color:none; left:0px; top:500px; width: 200px;}
+    /* 25%  {background-color:none; left:100px; top:100px; width: 230px;}
+    25%  {background-color:none; left:100px; top:100px; width: 400px;} */
+    100% {background-color:none; left:1200px; top:-250px; width: 200px;}
+}
+
+
+    /* #spriteContainer {
      width: 1200px;
      height: 90px;
      -ms-transform: rotate(-20deg); /* IE 9 */
@@ -29,7 +100,8 @@
    100% {
      background-position: -7224px;
    }
-  }
+  } */
+
 
     </style>
   </head>
@@ -49,7 +121,10 @@
     <p>Blackbird fly,<br>Into the light<br> Of the dark black night</p>
   </div>
 
-<div id=spriteContainer></div>
+<!-- <div id=spriteContainer></div> -->
+<!-- <img src="img/birdsprite.png" /> -->
+
+<span><div class="bird"></div></span>
 <section class="grid-x large-offset-10">
 <footer>Paul McCartney, John Lennon</footer>
 </section>
