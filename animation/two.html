@@ -20,36 +20,29 @@ span {
     height: 200px;
     background-color: none;
     position: relative;
-    -webkit-animation: myfirst 1s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: myfirst 3s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
-    animation: myfirst 1s infinite alternate;
+    animation: myfirst 3s infinite alternate;
     /* animation: grow 5s infinite alternate;
     -webkit-animation: myfirst 5s linear 2s infinite; /* Safari 4.0 - 8.0 */
-    animation: myfirst 10s linear 1s infinite; */
+    animation: myfirst 10s linear 3s infinite; */
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
     0%   {background-color:none; left:0px; top:0px; width: 200px;}
-    25%  {background-color:none; left:100px; top:100px; width: 230px;}
-    25%  {background-color:none; left:100px; top:100px; width: 400px;}
-    100% {background-color:none; left:300px; top:-200px; width: 200px;}
+    25%  {background-color:none; left:200px; top:50px; width: 230px;}
+    /* 25%  {background-color:none; left:100px; top:0px; width: 400px;} */
+    100% {background-color:none; left:500px; top:-200px; width: 200px;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
     0%   {background-color:none; left:0px; top:0px; width: 200px;}
-    25%  {background-color:none; left:100px; top:100px; width: 230px;}
-    25%  {background-color:none; left:100px; top:100px; width: 400px;}
-    100% {background-color:none; left:300px; top:-200px; width: 200px;}
+    25%  {background-color:none; left:200px; top:50px; width: 230px;}
+    /* 25%  {background-color:none; left:100px; top:0px; width: 400px;} */
+    100% {background-color:none; left:500px; top:-200px; width: 200px;}
 }
-@keyframes grow {
-  from {
-    font-size: 30px;
-  }
-  to {
-    font-size: 100px;
-  }
 }
 
 </style>
