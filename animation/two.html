@@ -18,32 +18,32 @@
 span {
     width: 200px;
     height: 200px;
-    background-color: none;
+    /* background-color: none; */
     position: relative;
     -webkit-animation: myfirst 3s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
     animation: myfirst 3s infinite alternate;
     /* animation: grow 5s infinite alternate;
     -webkit-animation: myfirst 5s linear 2s infinite; /* Safari 4.0 - 8.0 */
-    animation: myfirst 10s linear 3s infinite; */
+    animation: myfirst 10s linear 3s infinite;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
-    0%   {background-color:none; left:0px; top:0px; width: 200px;}
-    25%  {background-color:none; left:200px; top:50px; width: 230px;}
+    0%   {left:0px; top:0px; width: 200px;}
+    25%  {left:200px; top:50px; width: 230px;}
     /* 25%  {background-color:none; left:100px; top:0px; width: 400px;} */
-    100% {background-color:none; left:500px; top:-200px; width: 200px;}
+    100% {left:500px; top:-200px; width: 200px;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
-    0%   {background-color:none; left:0px; top:0px; width: 200px;}
-    25%  {background-color:none; left:200px; top:50px; width: 230px;}
+    0%   {left:0px; top:0px; width: 200px;}
+    25%  {left:200px; top:50px; width: 230px;}
     /* 25%  {background-color:none; left:100px; top:0px; width: 400px;} */
-    100% {background-color:none; left:500px; top:-200px; width: 200px;}
+    100% {left:500px; top:-200px; width: 200px;}
 }
-}
+
 
 </style>
   </head>
@@ -51,15 +51,14 @@ span {
         <nav>
           <ul>
             <li><a href="../index.html">JL</a></li>
-            <li><a href="index.html"><img src="img/onefoot.png"></a></li>
-            <li><a href="two.html"><img src="img/twofeet.png" class="current"></a></li>
-            <li><a href="three.html"><img src="img/threefeet.png"></a></li>
-            <li><a href="four.html"><img src="img/fourfeet.png"></a></li>
+            <li><a href="index.html"><img src="img/onefoot.png" alt="one bird foot"></a></li>
+            <li><a href="two.html"><img src="img/twofeet.png" alt="two bird feet" class="current"></a></li>
+            <li><a href="three.html"><img src="img/threefeet.png" alt="three bird feet"></a></li>
+            <li><a href="four.html"><img src="img/fourfeet.png" alt="four bird feet"></a></li>
           </ul>
         </nav>
   <figure>
     <img src="img/treebird.png" alt="tree" width="650" style="float:left">
-  </a>
   </figure>
   <div>
   <p>Take these broken wings<br>And learn to <span>fly</span></p>
