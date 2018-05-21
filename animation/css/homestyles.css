@@ -56,7 +56,7 @@ section {
   margin-top: 80px;
 }
 #grad1 {
-    height: 1200px;
+    height: 1300px;
     background: rgb(161, 180, 189); /* For browsers that do not support gradients */
     background: linear-gradient(to top right, rgb(161, 180, 189), white); /* Standard syntax (must be last) */
 }
