@@ -1,0 +1,26 @@
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+h3{
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+}
+body{
+
+  background:url("img/png");
+  background-repeat:repeat-x;
+  background-position: 0 120px;
+}
+
+#stage{
+  height:10000px;
+  width:300px;
+  margin:0 auto;
+  border:1px solid red;
+
+}
