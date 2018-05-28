@@ -20,6 +20,94 @@ h2{
 	top:40px;
 	opacity: 0.95;
 }
+#h4ca{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:135%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4az{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:230%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4nm{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:335%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4tx{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:430%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4ok{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:540%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4ks{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:630%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4mi{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:730%;
+	top:170px;
+	opacity: 0.95;
+}
+#h4il{
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: rgb(236, 217, 191);
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:830%;
+	top:190px;
+	opacity: 0.95;
+}
 #az{
 	font-family: 'Yellowtail', cursive;
 	font-size: 110px;
@@ -108,7 +196,7 @@ h2{
 	position:absolute;
 	width:90%;
 	height:500px;
-	left:10%;
+	left:12%;
 	top:90px;
 	background:url(../img/66.png) no-repeat left top;z-index:;
 }
@@ -247,4 +335,13 @@ h2{
 	left:800%;
 	top:-389px;
 	background:url(../img/lineil.png) no-repeat left top;z-index:;
+}
+#img_withwheels{
+	opacity: 0.95;
+	position:fixed;
+	width:90%;
+	height:420px;
+	left:54%;
+	top:224px;
+	background:url(../img/withwheels.png) no-repeat left top;z-index:;
 }

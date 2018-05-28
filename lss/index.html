@@ -21,6 +21,30 @@
     }
 
 
+    @keyframes wiggle {
+
+    0% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    10% { transform: translate(-0.5px, 0.5px) rotate(0deg); }
+    20% { transform: translate(-0.5px, 0px) rotate(0deg); }
+    30% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    40% { transform: translate(0.5px, -0.5px) rotate(0deg); }
+    50% { transform: translate(-0.5px, 0.5px) rotate(0deg); }
+    60% { transform: translate(-0.5px, 0.5px) rotate(0deg); }
+    70% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    80% { transform: translate(-0.5px, -0.5px) rotate(0deg); }
+    90% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    100% { transform: translate(0.5px, -0.5px) rotate(0deg); }
+  }
+
+
+  span.wiggle {
+    display: inline-block;
+    animation: wiggle 4.5s infinite;
+  }
+
+  span.wiggle:hover {
+    animation: none;
+  }
     </style>
   </head>
   <body>
@@ -29,7 +53,7 @@
 
 
 
-    </div>
+
     <h1>Historical</h1>
     <h2>California</h2
     <h3></h3>
@@ -48,38 +72,77 @@
     </div>
     <div id="img_lineca">
     </div>
+    <h4 id="h4ca">"The Golden State"</h4>
     <div id="img_whitesignaz">
     </div>
     <div id="img_lineaz">
     </div>
+    <h4 id="h4az">"The Grand Canyon State"</h4>
     <div id="img_whitesignnm">
     </div>
     <div id="img_linenm">
     </div>
+    <h4 id="h4nm">"The Land of Enchantment"</h4>
     <div id="img_whitesigntx">
     </div>
     <div id="img_linetx">
     </div>
+    <h4 id="h4tx">"The Lone Star State"</h4>
     <div id="img_whitesignok">
     </div>
     <div id="img_lineok">
     </div>
+    <h4 id="h4ok">"The Sooner State"</h4>
     <div id="img_whitesignks">
     </div>
     <div id="img_lineks">
     </div>
+    <h4 id="h4ks">"The Sunflower State"</h4>
     <div id="img_whitesignmi">
     </div>
     <div id="img_linemi">
     </div>
+    <h4 id="h4mi">"The Show Me State"</h4>
     <div id="img_whitesignil">
     </div>
     <div id="img_lineil">
     </div>
+    <h4 id="h4il">"The Prairie State"</h4>
+    <span class="wiggle" id="img_withwheels">
+    </span>
+    </div>
 
 
+<!-- <script>
+
+        var img_withwheels = document.getElementById("img_withwheels");
+
+        window.onscroll = function(){
+
+          console.log("yo, yo, yo");
+
+          var fromLeft = window.pageXOffset;
+
+          console.log(fromLeft);
+
+          // img_withwheels.innerHTML = fromLeft + "px";
+          //
+          // img_withwheels.style.left = fromLeft * 1.02 + "px";
+
+        //   img_withwheels.style.transform="rotate("+ fromLeft + "deg)";
+
+          if(fromLeft < 360){
+            img_withwheels.style.transform="translate(50px, 15px)";
 
 
+          }else if(fromLeft > 360 && fromLeft < 370){
+            img_withwheels.style.transform="translate(50px, -150px)";
+            }
+            else if(fromLeft > 370 && fromLeft <38){
+              img_withwheels.style.transform="rotate(90deg)";
+              }
+        };
+</script> -->
 
 
 
@@ -89,5 +152,6 @@
     <script src="zurb/js/vendor/foundation.js"></script>
     <script src="zurb/js/app.js"></script>
     <!-- ////NEED FOR ZURB-Edit FILEPATHS AS NEEDED//// -->
+
   </body>
 </html>
