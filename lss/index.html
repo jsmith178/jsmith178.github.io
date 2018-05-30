@@ -19,7 +19,7 @@
     background:rgb(40, 44, 52);
     }
 
-
+  /* <!--/////car////////--> */
     @keyframes wiggle {
 
     0% { transform: translate(0.5px, 0.5px) rotate(0deg); }
@@ -34,8 +34,6 @@
     90% { transform: translate(0.5px, 0.5px) rotate(0deg); }
     100% { transform: translate(0.5px, -0.5px) rotate(0deg); }
   }
-
-
   span.wiggle {
     display: inline-block;
     animation: wiggle 4.5s infinite;
@@ -44,6 +42,10 @@
   span.wiggle:hover {
     animation: none;
   }
+    /* <!--/////car////////--> */
+  /* <!--/////arrows////////--> */
+
+  /* <!--/////arrows////////--> */
     </style>
   </head>
   <body>
@@ -109,12 +111,14 @@
     <h4 id="h4il">“The Prairie State”</h4>
     <span class="wiggle" id="img_withwheels">
     </span>
+    <div class='animated lightSpeedInRight' id="img_arrow">
+    </div>
     </div>
 
 
 <!-- <script>
 
-        var img_withwheels = document.getElementById("img_withwheels");
+        var img_withwheels = document.getElementById("img_arrow");
 
         window.onscroll = function(){
 
@@ -130,16 +134,13 @@
 
         //   img_withwheels.style.transform="rotate("+ fromLeft + "deg)";
 
-          if(fromLeft < 360){
-            img_withwheels.style.transform="translate(50px, 15px)";
+          if(fromLeft < 2000){
+            img_arrow.style.transform="translate(50px, 15px)";
 
 
-          }else if(fromLeft > 360 && fromLeft < 370){
-            img_withwheels.style.transform="translate(50px, -150px)";
-            }
-            else if(fromLeft > 370 && fromLeft <38){
-              img_withwheels.style.transform="rotate(90deg)";
-              }
+          }else if(fromLeft > 2000){
+            img_arrow.style.transform="translate(50px, 150px)";
+          }
         };
 </script> -->
 

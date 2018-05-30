@@ -345,3 +345,11 @@ h2{
 	top:224px;
 	background:url(../img/withwheels.png) no-repeat left top;z-index:;
 }
+#img_arrow{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:260%;
+	top:20px;
+	background:url(../img/arrow.png) no-repeat left top;z-index:;
+}
