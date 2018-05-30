@@ -353,3 +353,27 @@ h2{
 	top:20px;
 	background:url(../img/arrow.png) no-repeat left top;z-index:;
 }
+#img_balloon1{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:360%;
+	top:20px;
+	background:url(../img/balloon1.png) no-repeat left top;z-index:;
+}
+#img_balloon2{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:375%;
+	top:60px;
+	background:url(../img/balloon2.png) no-repeat left top;z-index:;
+}
+#img_clouds{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:362%;
+	top:120px;
+	background:url(../img/clouds.png) no-repeat left top;z-index:;
+}
