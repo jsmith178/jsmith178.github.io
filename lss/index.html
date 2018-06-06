@@ -44,6 +44,37 @@
     animation: none;
   }
     /* <!--/////car////////--> */
+    /* <!--/////balloons////////--> */
+    @keyframes fly {
+
+    50% { transform: translate(0px, 25px) rotate(0deg); }
+    50% { transform: translate(0px, -40px) rotate(0deg); }
+  }
+  .fly {
+    display: inline-block;
+    animation: fly 7s infinite;
+  }
+
+  .fly:hover {
+    animation: none;
+  }
+    /* <!--/////balloons////////--> */
+      /* <!--/////clouds////////--> */
+    @keyframes float {
+
+    50% { transform: translate(-30px, 0px) rotate(0deg); }
+    50% { transform: translate(30px, 0px) rotate(0deg); }
+  }
+  .float {
+    display: inline-block;
+    animation: float 15s infinite;
+  }
+
+  .float:hover {
+    animation: none;
+  }
+  /* <!--/////clouds////////--> */
+
     </style>
   </head>
   <body>
@@ -111,11 +142,11 @@
     </span>
     <div id="img_arrow">
     </div>
-    <div id="img_balloon1">
+    <div class="fly" id="img_balloon1">
     </div>
-    <div id="img_balloon2">
+    <div class="fly" id="img_balloon2">
     </div>
-    <div id="img_clouds">
+    <div class="float" id="img_clouds">
     </div>
     </div>
 
