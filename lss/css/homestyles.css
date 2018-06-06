@@ -390,3 +390,27 @@ h2{
 	top:150px;
 	background:url(../img/clouds.png) no-repeat left top;z-index:;
 }
+#img_poppy{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:115%;
+	top:400px;
+	background:url(../img/poppy.png) no-repeat left top;z-index:;
+}
+#img_santamonica{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:150%;
+	top:80px;
+	background:url(../img/santamonica.png) no-repeat left top;z-index:;
+}
+#img_boot{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:450%;
+	top:20px;
+	background:url(../img/boot.png) no-repeat left top;z-index:;
+}
