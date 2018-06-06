@@ -414,3 +414,35 @@ h2{
 	top:20px;
 	background:url(../img/boot.png) no-repeat left top;z-index:;
 }
+#img_whale{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:560%;
+	top:20px;
+	background:url(../img/whale1.png) no-repeat left top;z-index:;
+}
+#img_bad{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:660%;
+	top:20px;
+	background:url(../img/bad.png) no-repeat left top;z-index:;
+}
+#img_bridgeks{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:650%;
+	top:275px;
+	background:url(../img/bridgeks.png) no-repeat left top;z-index:;
+}
+#img_arch{
+	position:absolute;
+	width:90%;
+	height:300px;
+	left:750%;
+	top:150px;
+	background:url(../img/arch.png) no-repeat left top;z-index:;
+}
