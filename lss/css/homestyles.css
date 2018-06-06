@@ -494,34 +494,23 @@ h2{
 	top:407px;
 	background:url(../img/flower.png) no-repeat left top;z-index:;
 }
-p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	line-height: normal;
+article{
+	position:absolute;
+	left:935%;
 	color: rgb(236, 217, 191);
-
-	left:905%;
-
-	opacity: 0.95;
 }
 h4{
-	font-family: 'yellowtail', cursive;
-	font-size:100px;
-	color: rgb(236, 217, 191);
 	position:absolute;
-
-	left:905%;
-
-	opacity: 0.95;
+	left:935%;
+	font-family: 'Yellowtail', cursive;
+	color: rgb(236, 217, 191);
+	font-size: 90px;
+	margin-left: 20px;
 }
 h5{
-font-family: 'Open Sans', sans-serif;
-font-size: 20px;
-line-height: normal;
-color: rgb(236, 217, 191);
-position:absolute;
-
-left:905%;
-
-opacity: 0.95;
+	position:absolute;
+	left:935%;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(236, 217, 191);
+	font-size: 20px;
 }
