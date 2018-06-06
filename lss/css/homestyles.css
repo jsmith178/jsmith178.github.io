@@ -473,8 +473,16 @@ h2{
 #img_cardinal{
 	position:absolute;
 	width:90%;
-	height:600px;
-	left:740%;
+	height:310px;
+	left:705%;
 	top:407px;
 	background:url(../img/cardinal.png) no-repeat left top;z-index:;
+}
+#img_flower{
+	position:absolute;
+	width:90%;
+	height:310px;
+	left:605%;
+	top:407px;
+	background:url(../img/flower.png) no-repeat left top;z-index:;
 }
