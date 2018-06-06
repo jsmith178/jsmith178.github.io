@@ -446,3 +446,19 @@ h2{
 	top:150px;
 	background:url(../img/arch.png) no-repeat left top;z-index:;
 }
+#img_museum{
+	position:absolute;
+	width:90%;
+	height:400px;
+	left:855%;
+	top:250px;
+	background:url(../img/museum.png) no-repeat left top;z-index:;
+}
+#img_desert{
+	position:absolute;
+	width:90%;
+	height:200px;
+	left:220%;
+	top:430px;
+	background:url(../img/desert.png) no-repeat left top;z-index:;
+}

@@ -94,6 +94,23 @@
     animation: kick 3.5s infinite;
   }
       /* <!--/////boot////////--> */
+        <!--/////badmitton////////--> */
+        @keyframes spin {
+
+        50% { transform: translate(0px, 0px) rotate(-10deg); }
+        50% { transform: translate(-0px, 0px) rotate(-10deg); }
+        50% { transform: translate(0px, 0px) rotate(-10deg); }
+        50% { transform: translate(-0px, 0px) rotate(-10deg); }
+      }
+      .spin {
+        display: inline-block;
+        animation: spin 4.5s infinite;
+      }
+
+      .spin:hover {
+        animation: none;
+      }
+          /* <!--/////badmitton////////-->
 
 
     </style>
@@ -173,9 +190,11 @@
     <div id="img_santamonica"></div>
     <div class="kick" id="img_boot"></div>
     <div id="img_whale"></div>
-    <div id="img_bad"></div>
+    <div class="spin" id="img_bad"></div>
     <div id="img_bridgeks"></div>
     <div id="img_arch"></div>
+    <div id="img_museum"></div>
+    <div id="img_desert"></div>
     </div>
 
 
