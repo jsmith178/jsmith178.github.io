@@ -462,3 +462,19 @@ h2{
 	top:430px;
 	background:url(../img/desert.png) no-repeat left top;z-index:;
 }
+#img_star{
+	position:absolute;
+	width:90%;
+	height:600px;
+	left:420%;
+	top:107px;
+	background:url(../img/star.png) no-repeat left top;z-index:;
+}
+#img_cardinal{
+	position:absolute;
+	width:90%;
+	height:600px;
+	left:740%;
+	top:407px;
+	background:url(../img/cardinal.png) no-repeat left top;z-index:;
+}
