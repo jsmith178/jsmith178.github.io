@@ -478,11 +478,11 @@ h2{
 	top:407px;
 	background:url(../img/cardinal.png) no-repeat left top;z-index:;
 }
-#img_flower{
+#img_cardinal{
 	position:absolute;
 	width:90%;
 	height:310px;
-	left:605%;
+	left:705%;
 	top:407px;
-	background:url(../img/flower.png) no-repeat left top;z-index:;
+	background:url(../img/cardinal.png) no-repeat left top;z-index:;
 }
