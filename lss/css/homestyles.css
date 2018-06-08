@@ -494,23 +494,50 @@ h2{
 	top:407px;
 	background:url(../img/flower.png) no-repeat left top;z-index:;
 }
-article{
+/* article{
 	position:absolute;
 	left:935%;
 	color: rgb(236, 217, 191);
+} */
+#container{
+	width: 100%;
+	left: 953%;
+	position:absolute;
+	width: 1000px;
 }
 h4{
 	position:absolute;
-	left:935%;
+	left:930%;
 	font-family: 'Yellowtail', cursive;
 	color: rgb(236, 217, 191);
-	font-size: 90px;
-	margin-left: 20px;
+	font-size: 80px;
+	top:15px;
 }
 h5{
 	position:absolute;
-	left:935%;
+	width: 100%;
+	left:930%;
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(236, 217, 191);
-	font-size: 20px;
+	font-size: 30px;
+	line-height: normal;
+
+	/* display: block; */
+}
+p{
+	position:absolute;
+	width: 90%;
+	left:930%;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(236, 217, 191);
+	font-size: 18px;
+	line-height: normal;
+	top: 110px;
+
+
+}
+#space{
+	position:absolute;
+	left:1000%;
+	width: 30%;
 }
