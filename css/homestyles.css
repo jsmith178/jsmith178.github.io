@@ -4,7 +4,7 @@ body {
 	background-repeat: repeat-x;
 }
 h1 {
-	color: white;
+	color: rgb(255, 255, 255);
 	font-family: 'Great Vibes', cursive;
 	margin: 25px;
 	font-size: 60px;
@@ -17,7 +17,7 @@ h2, h3 {
 	font-size: 30px;
 }
 p {
-	color: black;
+	color: rgb(255, 255, 255);
 	font-family: 'IM Fell English', serif;
 	line-height: normal;
 	font-size: 20px;
