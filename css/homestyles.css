@@ -15,7 +15,7 @@ h1 a {
 }
 
 h2 {
-	color: rgb(136, 136, 136);
+	color: black;
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: left;
 	padding-left: 20px;
@@ -24,13 +24,17 @@ h2 {
 }
 h2 a:hover {
 
-    color: black;
+    color: rgb(136, 136, 136);
   	text-decoration: none;
 }
 h2 a.current {
 
 		color: black;
 	}
+	div a.current {
+
+			color: black;
+		}
 h3 {
 	color: black;
 	font-family: 'Josefin Sans', sans-serif;
@@ -165,7 +169,7 @@ div.div8 {
 }
 div.div9 {
 
-	color: rgb(136, 136, 136);
+	color: black;
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: left;
 	padding-left: 20px;
