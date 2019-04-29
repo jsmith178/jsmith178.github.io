@@ -5,7 +5,7 @@ body {
 	background-size: 1500px 200px;
 	background-repeat: repeat-x;
 }
-h1 {
+h1 a {
 	color: black;
 	font-family: 'Dawning of a New Day', cursive;
 	margin: 25px;
@@ -63,12 +63,12 @@ nav ul {
 			width: 100%;
 }
 
-nav li {
+/* nav li {
       display: inline; /* change li from block level element to inline */
       padding: 5px 5px 5px 5px;
       font-family: 'IM Fell English', serif;
-}
-nav a:link, nav a:visited {
+} */
+/* nav a:link, nav a:visited {
       color: black;
   	  background-color: none;
 	  	border-radius: 2px; /*round the corners on the nav items*/
@@ -76,8 +76,8 @@ nav a:link, nav a:visited {
   	  padding: 6px 8px;
   	  margin: 0;
   	  font-size: 1em;
-}
-nav a:hover {
+} */
+/* nav a:hover {
   	background-color: rgb(173, 171, 171);
     color: black;
   	text-decoration: none;
@@ -85,7 +85,7 @@ nav a:hover {
 nav a.current {
   	background-color: rgb(173, 171, 171);
 		color: black;
-} */
+} */ */
 
 figure {
 	padding: 25px;
@@ -97,7 +97,7 @@ article {
 	padding: 25px;
 }
 a {
-	color: black;
+	color: rgb(136, 136, 136);
 }
 a:hover {
 	color: black;
