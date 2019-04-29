@@ -20,6 +20,7 @@ h2 {
 	text-align: left;
 	padding-left: 20px;
 	margin-top: 45px;
+	margin-left: 300px;
 	font-size: 18px;
 }
 h2 a:hover {
@@ -138,7 +139,7 @@ div.div3 {
 
 }
 div.div4 {
-	margin-top: 50px;
+	margin-top: 55px;
 	margin-left: 80px;
 	width: 200px;
 
@@ -151,8 +152,8 @@ div.div5 {
 }
 div.div6 {
 	margin-top: 50px;
-	margin-left: 80px;
-	width: 200px;
+	margin-left: 70px;
+	width: 220px;
 
 }
 div.div7 {
