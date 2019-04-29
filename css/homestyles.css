@@ -102,3 +102,11 @@ a {
 a:hover {
 	color: black;
 }
+footer {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 20px;
+}
