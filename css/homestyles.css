@@ -108,9 +108,10 @@ footer {
 	font-family: 'Open Sans', sans-serif;
 	line-height: normal;
 	font-size: 10px;
-	text-align: center;
+	text-align: left;
 	padding-bottom: 20px;
-	padding-top: 10px;
+	padding-top: 20px;
+	margin-left: 150px;
 }
 div.div1 {
 	margin-top: 40px;
