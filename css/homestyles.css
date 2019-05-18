@@ -22,7 +22,7 @@ h2 {
 	margin-top: 45px;
 	margin-left: 20px;
 	font-size: 18px;
-	
+
 }
 h2 a:hover {
 
@@ -48,14 +48,14 @@ h4 {
 	color: black;
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: left;
-	font-size: 24px;
+	font-size: 26px;
 	margin-top: 62px;
 }
 p {
 	color: black;
 	font-family: 'Josefin Sans Light', sans-serif;
 	line-height: normal;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 /* nav {
