@@ -301,3 +301,9 @@ body{
 .fadeIn-bottom{
   top: 80%;
 }
+
+.moveimage
+{
+    position: relative;
+    top: 45px;
+}
